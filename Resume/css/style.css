@@ -1,0 +1,302 @@
+html {
+  display: block;
+}
+
+body {
+  background-color: rgb(245, 247, 250);
+  font-family: Montserrat, sans-serif;
+  padding: 40px;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+a:-webkit-any-link {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.right-side {
+  background-color: rgb(238, 238, 238);
+  width: 830px;
+  padding-left: 80px;
+  padding-right: 200px;
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
+
+.bio,
+.projects,
+.jobs,
+.education {
+  margin-bottom: 60px;
+}
+
+.bio-title {
+  font-size: 45px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.bio-occupation {
+  margin-bottom: 27px;
+}
+
+.bio-title,
+.bio-occupation {
+  color: #2a2a2a;
+}
+
+.bio-occupation,
+.bio-about {
+  font-size: 16px;
+  line-height: 1.714;
+}
+
+.bio-about {
+  color: #3f3f3f;
+}
+
+.contacts-link {
+  opacity: 0.6;
+  color: rgb(78, 73, 126);
+  text-decoration: none;
+}
+
+.contacts-link:hover {
+  color: #ff6b08;
+}
+
+.jobs-title {
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+
+.jobs-title,
+.education-title {
+  color: rgb(42, 42, 42);
+  font-size: 22px;
+  line-height: 1.091;
+}
+
+.jobs-occupation {
+  margin-bottom: 16px;
+}
+.jobs-occupation,
+.education-degree {
+  color: rgb(42, 42, 42);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.jobs-time {
+  margin-bottom: 18px;
+  font-weight: 400;
+}
+
+.jobs-time,
+.education-time {
+  color: rgb(70, 70, 70);
+  font-size: 12px;
+  line-height: 2;
+}
+
+.experience {
+  margin-bottom: 28px;
+}
+
+.experience-item {
+  color: rgb(70, 70, 70);
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.accent {
+  color: rgb(78, 73, 126);
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+div {
+  display: block;
+}
+
+.left-side {
+  width: 370px;
+  background-color: rgb(231, 231, 231);
+  color: rgb(255, 255, 255);
+}
+
+aside {
+  display: block;
+}
+
+.photo,
+.contacts,
+.skills,
+.widget {
+  margin-bottom: 60px;
+}
+.photo {
+  width: 370px;
+}
+
+.contacts,
+.skills,
+.widget {
+  padding-left: 40px;
+}
+
+section {
+  display: block;
+}
+
+.contacts-title,
+.skills-title {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.skills-list,
+.contacts-list {
+  padding-left: 0px;
+  list-style: none;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.contacts-item {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.714;
+  color: rgb(0, 0, 0);
+}
+
+.contacts,
+.skills,
+.widget {
+  padding-left: 40px;
+}
+
+.skills-item {
+  color: black;
+  font-size: 16px;
+  line-height: 1.714;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.widget-link {
+  color: rgb(255, 255, 255);
+  background-color: rgb(181, 215, 250);
+  padding-top: 20px;
+  padding-right: 43px;
+  padding-bottom: 20px;
+  padding-left: 43px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.projects-title {
+  font-size: 22px;
+  line-height: 1.091;
+  color: rgb(42, 42, 42);
+  margin-bottom: 14px;
+}
+
+/*********
+.projects-title {
+  font-size: 22px;
+  line-height: 1.091;
+  color: rgb(42, 42, 42);
+  margin-bottom: 14px;
+}
+
+.projects-link {
+  color: rgb(34, 15, 220);
+  font-size: 14px;
+  line-height: 24px;
+  position: absolute;
+
+  left: 512px;
+  top: 464px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+
+  line-height: 24px;
+  ** or 171% **
+
+  text-decoration-line: underline;
+
+}
+
+.projects-link:hover {
+  color: #ff6b08;
+}
+
+*********/
